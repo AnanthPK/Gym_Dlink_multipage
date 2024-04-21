@@ -1,0 +1,159 @@
+body{
+	font-family: 'Poppins', sans-serif;
+  overflow-x: hidden ;
+}
+.navbar{
+	background-color:gray ;
+}
+
+@media screen and (min-width:992px){
+	.nav-item {
+	line-height:80px;
+	}
+  }
+
+  /* Hero Section */
+
+  .heroBg{
+	background-color: rgba(0, 0, 0, 0.24);
+	background-image:url(./Images/Bgimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	position: relative;
+	z-index: -1;
+  }
+  .heroText{
+	
+	align-items: center;
+	padding: 300px 0px;
+  }
+  .herotextBg{
+	width: 100%;
+	color: white;
+	padding: 20px;
+	background-color: rgba(10, 10, 10, 0.493);
+	
+  }
+
+  /* About Section */
+
+  .abtCircle{
+	position: absolute;
+	z-index: -1;
+  }
+  .aboutSection{
+	padding: 50px 100px;
+  }
+  .abtRight{
+	padding-top: 30px;
+  }
+
+  /* Footer */
+
+.footer{
+	background-image: linear-gradient(#11427B, #11427bc2,#11427ba2);
+	padding: 50px;
+	width: 100%;
+}
+
+.button1 {
+  appearance: none;
+  background-color:#1877F2;
+  border:2px solid #1877F2;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+  will-change: transform;
+}
+
+.button1:disabled {
+  pointer-events: none;
+}
+
+.button1:hover {
+	background-color: #1876f2ab;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button1:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.fpages{
+  text-decoration: none;
+  color:white;
+}
+.fHead{
+  color: white;
+  font-weight: 600;
+  
+
+}
+.fLine1{
+  border-bottom: solid 3px;
+  border-color: rgb(97, 235, 97);
+  margin: 10px 165px 10px 170px;
+
+}
+.fLine2{
+  border-bottom: solid 3px;
+  border-color: rgb(92, 234, 92);
+  margin: 2px 120px 13px 120px;
+
+}
+.fLine3{
+  border-bottom: solid 3px;
+  border-color: rgb(20, 164, 20);
+  margin: 10px 120px;
+
+}
+.fname{
+  padding: 7px 0px;
+
+}
+.ibox{
+  padding: 7px 10px;
+}
+.button1{
+  padding: 0px 60px;
+  margin: 13px 0px;
+}
+.EndLine{
+  color: rgb(92, 234, 92);
+  border-top: 3px solid rgb(0, 255, 0);
+
+}
+
+.footer label{
+  color: white;
+
+}
+.extFooter{
+  display: flex;
+  justify-content: space-between;
+}
+.extFooter p{
+  font-size: 13px;
+  color: white;
+  letter-spacing: 1px;
+}
